@@ -1,0 +1,6 @@
+server.port = 8443
+server.ssl.enabled = true
+server.ssl.key-alias = spring
+server.ssl.key-store = src/main/resources/saml/keystore.jks
+server.ssl.key-store-password = secret
+security.saml2.metadata-url =https://dev-856753.oktapreview.com/app/exkoxna6axOLKemok0h7/sso/saml/metadata
